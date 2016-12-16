@@ -15,6 +15,9 @@
 		0454F9FE1E0405FF008A7924 /* SJ_PDFCreator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0454F9FD1E0405FF008A7924 /* SJ_PDFCreator.framework */; };
 		0454F9FF1E04062F008A7924 /* SJ_PDFCreator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0454F9FD1E0405FF008A7924 /* SJ_PDFCreator.framework */; };
 		0454FA001E04062F008A7924 /* SJ_PDFCreator.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0454F9FD1E0405FF008A7924 /* SJ_PDFCreator.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0454FA0A1E042742008A7924 /* iOS.png in Resources */ = {isa = PBXBuildFile; fileRef = 0454FA071E042742008A7924 /* iOS.png */; };
+		0454FA0B1E042742008A7924 /* iOS10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0454FA081E042742008A7924 /* iOS10.jpg */; };
+		0454FA0C1E042742008A7924 /* iOS10a.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0454FA091E042742008A7924 /* iOS10a.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -40,6 +43,9 @@
 		0454F9F51E0405E7008A7924 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0454F9F71E0405E7008A7924 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0454F9FD1E0405FF008A7924 /* SJ_PDFCreator.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SJ_PDFCreator.framework; sourceTree = "<group>"; };
+		0454FA071E042742008A7924 /* iOS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iOS.png; sourceTree = "<group>"; };
+		0454FA081E042742008A7924 /* iOS10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iOS10.jpg; sourceTree = "<group>"; };
+		0454FA091E042742008A7924 /* iOS10a.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iOS10a.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,9 @@
 				0454F9F21E0405E7008A7924 /* Assets.xcassets */,
 				0454F9F41E0405E7008A7924 /* LaunchScreen.storyboard */,
 				0454F9F71E0405E7008A7924 /* Info.plist */,
+				0454FA071E042742008A7924 /* iOS.png */,
+				0454FA081E042742008A7924 /* iOS10.jpg */,
+				0454FA091E042742008A7924 /* iOS10a.jpg */,
 			);
 			path = DemoPdf;
 			sourceTree = "<group>";
@@ -145,7 +154,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0454FA0C1E042742008A7924 /* iOS10a.jpg in Resources */,
 				0454F9F61E0405E7008A7924 /* LaunchScreen.storyboard in Resources */,
+				0454FA0B1E042742008A7924 /* iOS10.jpg in Resources */,
+				0454FA0A1E042742008A7924 /* iOS.png in Resources */,
 				0454F9F31E0405E7008A7924 /* Assets.xcassets in Resources */,
 				0454F9F11E0405E7008A7924 /* Main.storyboard in Resources */,
 			);
@@ -329,6 +341,7 @@
 				0454F9FC1E0405E7008A7924 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
