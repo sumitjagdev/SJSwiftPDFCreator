@@ -4,7 +4,7 @@ You can easily export your pdf by calling an simple method which returns the pat
 
 ## Installation
 1. Download or clone this project.
-2. Drag SJ_PDFCreator into your project.
+2. Drag SJ_PDFCreator.framework into your project.
 3. Use it.
 
 ## Usage
