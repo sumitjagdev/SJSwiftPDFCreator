@@ -1,0 +1,10 @@
+framework module SJ_PDFCreator {
+  umbrella header "SJ_PDFCreator.h"
+
+  export *
+  module * { export * }
+}
+
+module SJ_PDFCreator.Swift {
+    header "SJ_PDFCreator-Swift.h"
+}
