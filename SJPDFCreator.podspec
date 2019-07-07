@@ -1,7 +1,12 @@
 Pod::Spec.new do |s|  
     s.name              = 'SJPDFCreator'
-    s.version           = '0.0.1'
+    s.version           = '1.0.0'
     s.summary           = 'SJPDFCreator framwork is to rendering PDF file by calling several simple methods.'
+    s.description      = <<-DESC
+SJPDFCreator framwork is to rendering PDF file by calling several simple methods. 
+You can easily export your pdf by calling an simple method which returns the path. 
+After exposrting the pdf you can clear the previous data by calling clearData method so the framework is reset to accept new pdf data from starting.
+                       DESC
     s.homepage          = 'https://github.com/sumitjagdev/SJ_PDFCreator'
 
     s.author             = { "Sumit Jagdev" => "sumitjagdev3@gmail.com" }

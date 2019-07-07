@@ -81,6 +81,7 @@ class ViewController: UIViewController {
                 let webView = UIWebView(frame: self.view.frame)
                 webView.loadRequest(req as URLRequest)
                 self.view.addSubview(webView)
+                SJPDFCreator.clearPDFData()
             }
         }
 

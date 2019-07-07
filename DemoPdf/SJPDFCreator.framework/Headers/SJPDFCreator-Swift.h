@@ -186,12 +186,16 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 
 
-@class UIWebView;
 
 SWIFT_CLASS("_TtC12SJPDFCreator12SJPDFCreator")
-@interface SJPDFCreator : UIPrintPageRenderer <UIWebViewDelegate>
+@interface SJPDFCreator : UIPrintPageRenderer
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+@class UIWebView;
+
+@interface SJPDFCreator (SWIFT_EXTENSION(SJPDFCreator)) <UIWebViewDelegate>
 - (void)webViewDidFinishLoad:(UIWebView * _Nonnull)webView;
 @end
 
@@ -393,12 +397,16 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 
 
-@class UIWebView;
 
 SWIFT_CLASS("_TtC12SJPDFCreator12SJPDFCreator")
-@interface SJPDFCreator : UIPrintPageRenderer <UIWebViewDelegate>
+@interface SJPDFCreator : UIPrintPageRenderer
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+@class UIWebView;
+
+@interface SJPDFCreator (SWIFT_EXTENSION(SJPDFCreator)) <UIWebViewDelegate>
 - (void)webViewDidFinishLoad:(UIWebView * _Nonnull)webView;
 @end
 
