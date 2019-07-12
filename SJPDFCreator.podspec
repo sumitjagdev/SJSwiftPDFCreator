@@ -10,7 +10,7 @@ After exposrting the pdf you can clear the previous data by calling clearData me
     s.homepage          = 'https://github.com/sumitjagdev/SJ_PDFCreator'
 
     s.author             = { "Sumit Jagdev" => "sumitjagdev3@gmail.com" }
-    s.license           = { :type => 'Apache-2.0', :file => 'LICENSE' }
+    s.license           = { :type => 'Apache-2.0', :file => 'LICENSE.md' }
 
     s.platform          = :ios
     s.source            = { :http => 'https://raw.githubusercontent.com/sumitjagdev/SJ_PDFCreator/master/SJPDFCreator.zip' }
