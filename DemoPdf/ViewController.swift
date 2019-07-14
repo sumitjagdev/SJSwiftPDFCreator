@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        
+        SJPDFCreator.setController(controller: self)
         SJPDFCreator.writeText(text: "Rendering Dynamic PDF", bold: true, alignment: .center, fontSize: 20, textColor: UIColor.red)
         
         let dataDict = NSMutableDictionary()
