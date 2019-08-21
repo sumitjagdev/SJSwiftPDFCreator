@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|  
     s.name              = 'SJPDFCreator'
-    s.version           = '1.2.2'
+    s.version           = '1.3'
     s.summary           = 'SJPDFCreator framwork is to rendering PDF file by calling several simple methods.'
     s.description      = <<-DESC
 SJPDFCreator framwork is to rendering PDF file by calling several simple methods. 
