@@ -15,8 +15,9 @@
 		0454FA0A1E042742008A7924 /* iOS.png in Resources */ = {isa = PBXBuildFile; fileRef = 0454FA071E042742008A7924 /* iOS.png */; };
 		0454FA0B1E042742008A7924 /* iOS10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0454FA081E042742008A7924 /* iOS10.jpg */; };
 		0454FA0C1E042742008A7924 /* iOS10a.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0454FA091E042742008A7924 /* iOS10a.jpg */; };
-		F6D63EB022D120DD00ECC57D /* SJPDFCreator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6D63EAF22D120DD00ECC57D /* SJPDFCreator.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		F6D63EB222D121E500ECC57D /* SJPDFCreator.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F6D63EAF22D120DD00ECC57D /* SJPDFCreator.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F6C942EA233156320083AB6D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6C942E9233156320083AB6D /* UIKit.framework */; };
+		F6C942EC2331566F0083AB6D /* SJPDFCreator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6C942EB2331566F0083AB6D /* SJPDFCreator.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		F6C942EE233157A50083AB6D /* SJPDFCreator.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F6C942EB2331566F0083AB6D /* SJPDFCreator.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,7 +27,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				F6D63EB222D121E500ECC57D /* SJPDFCreator.framework in Embed Frameworks */,
+				F6C942EE233157A50083AB6D /* SJPDFCreator.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -44,7 +45,8 @@
 		0454FA071E042742008A7924 /* iOS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iOS.png; sourceTree = "<group>"; };
 		0454FA081E042742008A7924 /* iOS10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iOS10.jpg; sourceTree = "<group>"; };
 		0454FA091E042742008A7924 /* iOS10a.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iOS10a.jpg; sourceTree = "<group>"; };
-		F6D63EAF22D120DD00ECC57D /* SJPDFCreator.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SJPDFCreator.framework; sourceTree = "<group>"; };
+		F6C942E9233156320083AB6D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F6C942EB2331566F0083AB6D /* SJPDFCreator.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SJPDFCreator.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +54,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6D63EB022D120DD00ECC57D /* SJPDFCreator.framework in Frameworks */,
+				F6C942EA233156320083AB6D /* UIKit.framework in Frameworks */,
+				F6C942EC2331566F0083AB6D /* SJPDFCreator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +67,7 @@
 			children = (
 				0454F9EA1E0405E7008A7924 /* DemoPdf */,
 				0454F9E91E0405E7008A7924 /* Products */,
+				F6C942E8233156320083AB6D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,7 +82,6 @@
 		0454F9EA1E0405E7008A7924 /* DemoPdf */ = {
 			isa = PBXGroup;
 			children = (
-				F6D63EAF22D120DD00ECC57D /* SJPDFCreator.framework */,
 				0454F9EB1E0405E7008A7924 /* AppDelegate.swift */,
 				0454F9ED1E0405E7008A7924 /* ViewController.swift */,
 				0454F9EF1E0405E7008A7924 /* Main.storyboard */,
@@ -90,6 +93,15 @@
 				0454FA091E042742008A7924 /* iOS10a.jpg */,
 			);
 			path = DemoPdf;
+			sourceTree = "<group>";
+		};
+		F6C942E8233156320083AB6D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F6C942EB2331566F0083AB6D /* SJPDFCreator.framework */,
+				F6C942E9233156320083AB6D /* UIKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +137,8 @@
 				TargetAttributes = {
 					0454F9E71E0405E7008A7924 = {
 						CreatedOnToolsVersion = 8.0;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = 98TCDCHV95;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -298,6 +311,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/DemoPdf",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = DemoPdf/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -317,6 +331,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/DemoPdf",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = DemoPdf/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
