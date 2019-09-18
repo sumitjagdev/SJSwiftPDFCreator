@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|  
     s.name              = 'SJPDFCreator'
-    s.version           = '1.3.5'
+    s.version           = '1.3.6'
     s.summary           = 'SJPDFCreator framwork is to rendering PDF file by calling several simple methods.'
     s.description      = <<-DESC
 SJPDFCreator framwork is to rendering PDF file by calling several simple methods. 
@@ -9,7 +9,7 @@ After exposrting the pdf you can clear the previous data by calling clearData me
                        DESC
     s.homepage          = 'https://github.com/sumitjagdev/SJ_PDFCreator'
 
-    s.author             = { "Sumit Jagdev" => "sumitjagdev3@gmail.com" }
+    s.author            = { "Sumit Jagdev" => "sumitjagdev3@gmail.com" }
     s.license           = { :type => 'Apache-2.0', :file => 'LICENSE.md' }
 
     s.platform          = :ios
