@@ -5,7 +5,7 @@ You can easily export your pdf by calling an simple method which returns the pat
 ## Installation
 1. pod 'SJPDFCreator', '~> 1.2.2' //Swift 4.21
 2. pod 'SJPDFCreator', '~> 1.3.5' //Swift 5
-2. pod 'SJPDFCreator', '~> 1.3.6' //Swift 5.1
+3. pod 'SJPDFCreator', '~> 1.3.6' //Swift 5.1
 
 ## Usage
 Start creating PDF using static methods.
