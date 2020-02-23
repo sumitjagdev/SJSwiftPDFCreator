@@ -15,5 +15,5 @@ After exposrting the pdf you can clear the previous data by calling clearData me
     s.platform          = :ios
     s.source            = { :git => "https://github.com/sumitjagdev/SJ_PDFCreator.git", :tag => "#{s.version}" }
     s.ios.deployment_target = '10.0'
-    s.ios.vendored_frameworks = 'SJPDFCreator.xcframework'
+    s.vendored_frameworks = 'SJPDFCreator.xcframework'
 end
