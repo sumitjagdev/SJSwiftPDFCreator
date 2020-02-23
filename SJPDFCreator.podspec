@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|  
     s.name              = 'SJPDFCreator'
-    s.version           = '1.3.6'
+    s.version           = '2.0'
     s.summary           = 'SJPDFCreator framwork is to rendering PDF file by calling several simple methods.'
     s.description      = <<-DESC
 SJPDFCreator framwork is to rendering PDF file by calling several simple methods. 
@@ -15,5 +15,5 @@ After exposrting the pdf you can clear the previous data by calling clearData me
     s.platform          = :ios
     s.source            = { :git => "https://github.com/sumitjagdev/SJ_PDFCreator.git", :tag => "#{s.version}" }
     s.ios.deployment_target = '10.0'
-    s.ios.vendored_frameworks = 'SJPDFCreator.framework'
+    s.ios.vendored_frameworks = 'SJPDFCreator.xcframework'
 end

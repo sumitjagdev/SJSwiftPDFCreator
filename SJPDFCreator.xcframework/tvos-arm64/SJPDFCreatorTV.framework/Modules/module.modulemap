@@ -1,0 +1,6 @@
+framework module SJPDFCreatorTV {
+  umbrella header "SJPDFCreatorTV.h"
+
+  export *
+  module * { export * }
+}

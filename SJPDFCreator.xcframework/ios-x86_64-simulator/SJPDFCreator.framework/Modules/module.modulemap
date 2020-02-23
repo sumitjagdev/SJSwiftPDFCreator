@@ -1,0 +1,11 @@
+framework module SJPDFCreator {
+  umbrella header "SJPDFCreator.h"
+
+  export *
+  module * { export * }
+}
+
+module SJPDFCreator.Swift {
+    header "SJPDFCreator-Swift.h"
+    requires objc
+}
