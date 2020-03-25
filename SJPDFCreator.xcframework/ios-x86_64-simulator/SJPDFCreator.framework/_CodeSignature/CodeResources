@@ -10,35 +10,35 @@
 		</data>
 		<key>Headers/SJPDFCreator.h</key>
 		<data>
-		Qkb8YuNiiUw5lmM2ked+u4+Bg+w=
+		jPcMFXtT2iloPCVDq/F+ZsTMlYA=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		aCCNEdXEQSrRLTk1emI532TxCyo=
+		Vnf4uFzNzqE5fzZtbo7xbDMxRZg=
 		</data>
 		<key>Modules/SJPDFCreator.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		5PcfmtuRan/hlOj61nzSX/dtWhU=
+		XTDKKAf70CjZ4FCXMQxFj5mbIUM=
 		</data>
 		<key>Modules/SJPDFCreator.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		wMg6o2yrDqXHbVMK6cRzVr+Pk70=
+		gaNgxG4aTk0pwprvRm77Geeerzk=
 		</data>
 		<key>Modules/SJPDFCreator.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		9px8hV0R9j6/imFVuz06zGLf5+M=
+		hc2xhnCaBV0ZD/WDuQVZILqEKco=
 		</data>
 		<key>Modules/SJPDFCreator.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		5PcfmtuRan/hlOj61nzSX/dtWhU=
+		XTDKKAf70CjZ4FCXMQxFj5mbIUM=
 		</data>
 		<key>Modules/SJPDFCreator.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		wMg6o2yrDqXHbVMK6cRzVr+Pk70=
+		gaNgxG4aTk0pwprvRm77Geeerzk=
 		</data>
 		<key>Modules/SJPDFCreator.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		9px8hV0R9j6/imFVuz06zGLf5+M=
+		hc2xhnCaBV0ZD/WDuQVZILqEKco=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -49,6 +49,10 @@
 	<dict>
 		<key>Headers/SJPDFCreator-Swift.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			P5IK4kmAdjfXO5CJY9BOqhtWZSU=
+			</data>
 			<key>hash2</key>
 			<data>
 			Nwl+ymwbSPLzFnlmIIidynPp3UkW1Oiwwj0O4Q9CPSI=
@@ -56,55 +60,87 @@
 		</dict>
 		<key>Headers/SJPDFCreator.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			jPcMFXtT2iloPCVDq/F+ZsTMlYA=
+			</data>
 			<key>hash2</key>
 			<data>
-			v57LcSv2FYmBYOYBsWt+0+tVlWhngPUGztJaZozF+Bc=
+			Ay+8Q72N/I1WzrEinXDZ/SDROP4gcbOphcbAaXzUlEA=
 			</data>
 		</dict>
 		<key>Modules/SJPDFCreator.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			XTDKKAf70CjZ4FCXMQxFj5mbIUM=
+			</data>
 			<key>hash2</key>
 			<data>
-			tSadcxa9XH6LuBzIk18ts497+rMA40NBvrCFRTYbSrQ=
+			C0bughys4UcD14FNGed9wiTa/nZqFuVn+Kqm+AS9Tr0=
 			</data>
 		</dict>
 		<key>Modules/SJPDFCreator.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			gaNgxG4aTk0pwprvRm77Geeerzk=
+			</data>
 			<key>hash2</key>
 			<data>
-			CXZ4YNKuOxU/jIKUqvO1uDttSfitLEt4JQ0r7KRghus=
+			YKoRCGH+i6KdK4MTl92lIK5bGuWsnHi2OQofwxjGibc=
 			</data>
 		</dict>
 		<key>Modules/SJPDFCreator.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			hc2xhnCaBV0ZD/WDuQVZILqEKco=
+			</data>
 			<key>hash2</key>
 			<data>
-			IWXf36DfhdQw7wp0nz7h/Q7+QXeEMJI/YSFDe/2Apqs=
+			kTtvgacdhaAtPJcI9m573ok12u9zEVP9ZQYkwfO+PUE=
 			</data>
 		</dict>
 		<key>Modules/SJPDFCreator.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			XTDKKAf70CjZ4FCXMQxFj5mbIUM=
+			</data>
 			<key>hash2</key>
 			<data>
-			tSadcxa9XH6LuBzIk18ts497+rMA40NBvrCFRTYbSrQ=
+			C0bughys4UcD14FNGed9wiTa/nZqFuVn+Kqm+AS9Tr0=
 			</data>
 		</dict>
 		<key>Modules/SJPDFCreator.swiftmodule/x86_64.swiftinterface</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			gaNgxG4aTk0pwprvRm77Geeerzk=
+			</data>
 			<key>hash2</key>
 			<data>
-			CXZ4YNKuOxU/jIKUqvO1uDttSfitLEt4JQ0r7KRghus=
+			YKoRCGH+i6KdK4MTl92lIK5bGuWsnHi2OQofwxjGibc=
 			</data>
 		</dict>
 		<key>Modules/SJPDFCreator.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			hc2xhnCaBV0ZD/WDuQVZILqEKco=
+			</data>
 			<key>hash2</key>
 			<data>
-			IWXf36DfhdQw7wp0nz7h/Q7+QXeEMJI/YSFDe/2Apqs=
+			kTtvgacdhaAtPJcI9m573ok12u9zEVP9ZQYkwfO+PUE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			4qPPnil7+VxwExUr9pFTmdU5EfU=
+			</data>
 			<key>hash2</key>
 			<data>
 			8WFvRBA2mTwhbue/7q3GtJvKBWee/GVSV6XSgcgG+XI=

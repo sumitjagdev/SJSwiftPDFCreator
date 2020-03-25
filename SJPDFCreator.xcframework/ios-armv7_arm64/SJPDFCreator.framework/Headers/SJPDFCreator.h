@@ -2,11 +2,11 @@
 //  SJPDFCreator.h
 //  SJPDFCreator
 //
-//  Created by Sumit Jagdev on 24/02/20.
-//  Copyright © 2020 MobileApp8iOS. All rights reserved.
+//  Created by Sumit Jagdev on 06/07/19.
+//  Copyright © 2019 MobileApp8iOS. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 //! Project version number for SJPDFCreator.
 FOUNDATION_EXPORT double SJPDFCreatorVersionNumber;
