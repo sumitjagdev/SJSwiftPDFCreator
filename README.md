@@ -3,6 +3,10 @@ SJPDFCreator framwork is to rendering PDF file by calling several simple methods
 You can easily export your pdf by calling an simple method which returns the path.
 
 ## Installation
+* pod 'SJPDFCreator', '~> 2.1' //xcframeworks
+
+OR 
+
 1. pod 'SJPDFCreator', '~> 1.2.2' //Swift 5.1.3 compiler
 2. pod 'SJPDFCreator', '~> 1.3.5' //Swift 5
 3. pod 'SJPDFCreator', '~> 1.3.6' //Swift 5.1
