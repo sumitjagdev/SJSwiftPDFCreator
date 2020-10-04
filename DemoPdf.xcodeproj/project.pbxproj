@@ -15,7 +15,7 @@
 		0454FA0A1E042742008A7924 /* iOS.png in Resources */ = {isa = PBXBuildFile; fileRef = 0454FA071E042742008A7924 /* iOS.png */; };
 		0454FA0B1E042742008A7924 /* iOS10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0454FA081E042742008A7924 /* iOS10.jpg */; };
 		0454FA0C1E042742008A7924 /* iOS10a.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0454FA091E042742008A7924 /* iOS10a.jpg */; };
-		E864B02B242B919900E1C984 /* SJPDFCreator.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = E864B02A242B919800E1C984 /* SJPDFCreator.xcframework */; };
+		F689531F252A482300B778E2 /* SJPDFCreator.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F689531E252A482300B778E2 /* SJPDFCreator.xcframework */; };
 		F6C942EA233156320083AB6D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6C942E9233156320083AB6D /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,7 +30,7 @@
 		0454FA071E042742008A7924 /* iOS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iOS.png; sourceTree = "<group>"; };
 		0454FA081E042742008A7924 /* iOS10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iOS10.jpg; sourceTree = "<group>"; };
 		0454FA091E042742008A7924 /* iOS10a.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iOS10a.jpg; sourceTree = "<group>"; };
-		E864B02A242B919800E1C984 /* SJPDFCreator.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = SJPDFCreator.xcframework; sourceTree = "<group>"; };
+		F689531E252A482300B778E2 /* SJPDFCreator.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = SJPDFCreator.xcframework; sourceTree = "<group>"; };
 		F6C942E9233156320083AB6D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -39,7 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E864B02B242B919900E1C984 /* SJPDFCreator.xcframework in Frameworks */,
+				F689531F252A482300B778E2 /* SJPDFCreator.xcframework in Frameworks */,
 				F6C942EA233156320083AB6D /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -83,7 +83,7 @@
 		F6C942E8233156320083AB6D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E864B02A242B919800E1C984 /* SJPDFCreator.xcframework */,
+				F689531E252A482300B778E2 /* SJPDFCreator.xcframework */,
 				F6C942E9233156320083AB6D /* UIKit.framework */,
 			);
 			name = Frameworks;
